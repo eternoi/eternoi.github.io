@@ -44,6 +44,12 @@ a:hover {
 .disable {
 	color:#E0E0E0!important
 }
+.blog {
+    font-size: 20px;
+    text-shadow: 0 0 8px forestgreen; 
+    text-decoration: none;
+    color: cyan;
+}
 #page {
 	background:rgba(255,153,0,.6);
 	background:-moz-linear-gradient(-45deg,rgba(255,153,0,.6) 0,rgba(117,189,209,.66) 59%,rgba(15,102,86,.7) 100%);
@@ -56,13 +62,13 @@ a:hover {
 }
 @media (min-width:992px) {
 	#page {
-		margin:48px auto
+		margin:48px auto;
 	}
 	.cv-section {
 		width:944px
 	}
 }
-@media (min-width:1200px) {
+@media (min-width:1600px) {
 	#page {
 		margin:96px auto;
 		max-width:1060px
@@ -451,7 +457,8 @@ input,input.email,input.name,textarea {
 	overflow:visible;
 	-moz-box-shadow:0 0 5px #fafafa;
 	-webkit-box-shadow:0 0 5px #fafafa;
-	color:#fff
+	color:#fff;
+    cursor:url("../media/cursors/texto.cur"),default;
 }
 textarea {
 	height:150px;
@@ -491,7 +498,7 @@ input[type=submit] {
 	cursor:url("../media/cursors/fin.cur"),default;
 }
 input.message {
-	background:rgba(255,255,255,.4)
+	background:rgba(255,255,255,.4);
 }
 ::-webkit-input-placeholder {
 	color:#fff
@@ -624,7 +631,6 @@ input.btn:hover {
 	height:353.33px;
 	background-color:#fcfcfc;
 	border-corner-shape:scoop;
-	border-radius:192px;
 	border:2px solid #fafafa;
 	box-shadow:0 0 8px #fafafa;
 	-webkit-box-shadow:0 0 8px #fafafa
@@ -634,7 +640,9 @@ input.btn:hover {
 	width:110px;
 	height:110px;
 	text-align:center;
-	margin:0 auto 24px
+	margin:0 auto 24px;
+    color:#fafafa;
+    text-shadow: 0 0 2px #fafafa;
 }
 @media (min-width:992px) {
 	.pie-chart {
