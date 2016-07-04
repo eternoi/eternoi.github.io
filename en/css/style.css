@@ -145,7 +145,7 @@ a:hover {
 	max-width:422px
 }
 #header>.cv-section {
-	border-top:10px solid #757575
+	border-top:10px solid rgba(240,128,128,.5)  ;
 }
 #header .social-box {
 	height:32px;
@@ -263,10 +263,22 @@ a:hover {
 	text-decoration:none
 }
 .header-bimg-fullw .contact-info a:hover {
-    color: lightcoral;
-	text-shadow:0 0 2px #fafafa;
-	text-decoration:none
+    
+	color:coral;
+    text-shadow: 0 0 2px coral;
+	background:#fafafa;
+    border-radius: 22px;
+	-moz-box-shadow:0 0 8px #fafafa;
+	-webkit-box-shadow:0 0 8px #fafafa;
+	box-shadow:0 0 8px #fafafa;
+	-webkit-transition:all .2s ease;
+	-moz-transition:all .2s ease;
+	-ms-transition:all .2s ease;
+	-o-transition:all .2s ease;
+	transition:all .2s ease;
+	-webkit-animation:latido 1s ease
 }
+
 .header-bimg-fullw .contact-info a:last-child {
 	color:#fafafa;
 	text-shadow:0 0 8px;
