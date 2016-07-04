@@ -77,7 +77,7 @@ a:hover {
 .cv-section {
 	margin:0 auto;
 	padding:60px 0;
-	border-top:1px solid #e0e0e0
+	border-top:1px solid #fafafa
 }
 .cv-section-fullw,.fullw {
 	margin-right:-15px;
@@ -229,7 +229,7 @@ a:hover {
 	padding:12px
 }
 .header-bimg-fullw .contact-info,.header-bimg-fullw .social-box {
-	margin-top:24px;
+	margin-top:124px;
 	text-shadow:0 0 8px
 }
 .header-bimg-fullw .contact-info {
