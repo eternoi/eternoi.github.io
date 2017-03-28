@@ -64,9 +64,9 @@ a:hover {
     -moz-transition: all 0.5s;
     transition: all 0.5s;
     color: #fff;
-    -webkit-animation: neon6 1.5s ease-in-out infinite alternate;
-    -moz-animation: neon6 1.5s ease-in-out infinite alternate;
-    animation: neon6 1.5s ease-in-out infinite alternate;
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate;
 }
 /*glow for webkit*/
 @-webkit-keyframes neon1 {
